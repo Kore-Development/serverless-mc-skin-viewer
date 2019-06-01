@@ -44,7 +44,7 @@
         if (settings.draw !== 'head' && settings.draw !== 'model') settings.draw = 'model'
 
         // Request the data
-        methods.requestData('http://s3.amazonaws.com/MinecraftSkins/' + settings.username + '.png', $this, settings)
+        methods.requestData('https://cors-escape.glitch.me/minotar.net/skin/' + settings.username + '.png', $this, settings)
       })
     }
     , buildImage: function(imgData, $this, settings) {
